@@ -1,6 +1,6 @@
 """Regression tests: every numerical example in the notes.
 
-Section and example names refer to notes/AI_OPN-conj_sigma-graphs.tex.
+Section and example names refer to notes/OPNs-and-sigma-graphs_AI-notes.tex.
 """
 
 from fractions import Fraction

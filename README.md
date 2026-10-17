@@ -2,7 +2,9 @@
 
 Companion code and notes for **"Odd Perfect Numbers as Edge-Weighted
 Digraphs"** (David Joyner, working notes prepared with Claude, Gemini and
-ChatGPT). The notes are in [`notes/`](notes/), as LaTeX source and PDF.
+ChatGPT). The notes are in [`notes/`](notes/):
+[PDF](notes/OPNs-and-sigma-graphs_AI-notes.pdf) and
+[LaTeX source](notes/OPNs-and-sigma-graphs_AI-notes.tex).
 
 The **σ-graph** of an integer `n > 1` is a weighted digraph on primes. Its
 vertices are the primes dividing `n·σ(n)`. The edge `s → r` has weight
@@ -42,7 +44,7 @@ point is used only for logarithms in the Poisson and energy checks.
 ## Install
 
 ```bash
-git clone https://github.com/<user>/opn-sigma-graphs.git
+git clone https://github.com/wdjoyner/opn-sigma-graphs.git
 cd opn-sigma-graphs
 python -m pip install -e ".[test]"
 ```
