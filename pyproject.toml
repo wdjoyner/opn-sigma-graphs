@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigmagraph"
+version = "0.1.0"
+description = "Valuation-weighted sigma-graphs of integers, with companion notes on odd perfect numbers"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "David Joyner"}]
+requires-python = ">=3.10"
+dependencies = ["sympy>=1.12"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+sigmagraph = "sigmagraph.cli:main"
+
+[tool.setuptools]
+packages = ["sigmagraph"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
