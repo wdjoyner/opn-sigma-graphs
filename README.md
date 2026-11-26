@@ -15,6 +15,10 @@ how often.
 This package computes these graphs exactly and reproduces every numerical
 example in the notes as a test.
 
+## The notes in brief
+
+The notes examine an AI-generated research program that attacks the odd perfect number problem through the σ-graph of a hypothetical odd perfect number. The program builds on a 2026 preprint of Rodgers, whose basic order criterion for edges is false; the notes give the corrected criterion. Their assessment: the arithmetic is correct, the small lemmas are mostly classical facts in graph language, and the two "breakthrough lemmas" restate the conjecture rather than reduce it. Along the way the notes prove a few small results: the σ-graph of an odd perfect number is strongly connected, most of its logarithmic flow travels around cycles, and no odd perfect or multiperfect number has a symmetric σ-graph. The central observation is that being an odd perfect number is equivalent to a Poisson equation on the σ-graph, with the vector of log-primes as potential. A final section sketches a more realistic program (discharging, linear-programming duality, undirected reformulations) and asks what harmonic morphisms and equitable partitions can do with that equation.
+
 ## What it computes
 
 For any integer `n > 1`:
